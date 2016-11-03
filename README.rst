@@ -1,26 +1,42 @@
-Installation du blog
-====================
+Reproduire le blog
+==================
 
 :date: 2016-11-01 19:08
 
-> Les opérations sont réalisées en ``root``.
+Première installation
+---------------------
 
-1. Clôner ce dépôt ::
+1. Créer un environnement virtuel python ::
 
-    mkdir -p /opt/blog
-    git clone https://github.com/c-geek/blog /opt/blog
-    cd /opt/blog
+    virtualenv ~/virtualenvs/pelican && cd ~/virtualenvs/pelican && source bin/activate
 
-2. Installer ``pelican`` ::
+2. Clôner ce dépôt ::
 
-    sudo pip install pelican
+    git clone https://github.com/c-geek/blog && cd blog
 
-3. Ajouter le theme ``medius`` a pelican ::
+3. Installer ``pelican`` ::
 
-    sudo pelican-themes --install medius/
+    pip install pelican pelican-youtube
 
-4. Produire le site web résultat ::
+4. Ajouter le theme ``medius`` a pelican ::
 
-    pelican content/ -s publishconf.py
+    pelican-themes --install medius/
 
-Le site web est alors consultable comme n'importe quel site HTML, en commençant par le fichier ``index.html``.
+5. Produire le blog ::
+
+    ./develop_server.sh start 8056
+
+Le blog est alors disponible à l'adresse http://localhost:8056
+
+Reprendre la dernière installation
+----------------------------------
+
+1. Rejoindre l'environnement virtuel python ::
+
+    cd ~/virtualenvs/pelican && source bin/activate
+
+2. Produire le blog ::
+
+    ./develop_server.sh start 8056
+
+Le blog est alors disponible à l'adresse http://localhost:8056
