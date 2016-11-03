@@ -10,7 +10,7 @@ Ouverture du cblog !
 
 L'idée me trottait en tête depuis un certain temps déjà, voilà qui est fait : je mets en place mon blog, le *cblog*  (cgeek ― cblog), afin de partager toutes ces choses que je découvre, répondre à des sujets qui me tiennent à cœur ou proposer un point de vue particulier.
 
-Il m'arrive notamment d'avoir des moments de foisonnement d'idées, de solutions et d'imbrications possibles à un problème donné, mais j'ai remarqué que si je ne posais pas ces idées sur papier et ne tentait pas de les partager en remettant tout cela à plus tard, alors je perdais totalement le fil et *condamnais ces idées et solutions à l'inexistence*. Qui plus est, expliquer et partager participerais largement de la consolidation de ma propre réflexion. 
+Il m'arrive notamment d'avoir des moments de foisonnement d'idées, de solutions et d'imbrications possibles à un problème donné, mais j'ai remarqué que si je ne posais pas ces idées sur papier et ne tentait pas de les partager en remettant tout cela à plus tard, alors je perdais totalement le fil et *condamnais ces idées et solutions à l'inexistence*. Qui plus est, expliquer et partager participerait largement de la consolidation de ma propre réflexion. 
 
 Je n'ai pas attendu de mettre en place ce blog pour écrire mes premières idées sur papier, et plusieurs sujets seront publiés prochainement (1 année que je prends des notes !).
 
