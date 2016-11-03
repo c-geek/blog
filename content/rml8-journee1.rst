@@ -3,7 +3,7 @@ Programme des RML8
 
 :date: 2016-11-02 14h50
 :tags: RML, RML8, monnaie libre, duniter
-:slug: rml8-programme
+:slug: rml8-journee1
 :authors: cgeek
 :category: Evénements
 :thumbnail: /images/rml8.png
