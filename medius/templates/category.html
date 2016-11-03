@@ -47,10 +47,7 @@
                    {% endif %}
                    <div class="pure-u-3-4 meta-data">
                        <a href="{{ SITEURL }}/{{ author.url }}" class="category">{{ author }}</a><br />
-                       <abbr title="{{ article.date.isoformat() }}">{{ article.locale_date }}</abbr>
-                       {% if article.readtime_minutes %}
-                       &mdash; {{ article.readtime_minutes }} min read
-                       {% endif %}
+                       &mdash; <abbr title="{{ article.date.isoformat() }}">{{ article.locale_date }}</abbr>
                    </div>
                </div>
                {% endfor %}
@@ -85,10 +82,7 @@
                 {% endif %}
                 <div class="pure-u-3-4 meta-data">
                     <a href="{{ SITEURL }}/{{ author.url }}" class="category">{{ author }}</a><br />
-                    <abbr title="{{ article.date.isoformat() }}">{{ article.locale_date }}</abbr>
-                    {% if article.readtime_minutes %}
-                    &mdash; {{ article.readtime_minutes }} min read
-                    {% endif %}
+                    &mdash; <abbr title="{{ article.date.isoformat() }}">{{ article.locale_date }}</abbr>
                 </div>
             </div>
             {% endfor %}
@@ -125,10 +119,7 @@
                 {% endif %}
                 <div class="pure-u-3-4 meta-data">
                     <a href="{{ SITEURL }}/{{ author.url }}" class="category">{{ author }}</a><br />
-                    <abbr title="{{ article.date.isoformat() }}">{{ article.locale_date }}</abbr>
-                    {% if article.readtime_minutes %}
-                    &mdash; {{ article.readtime_minutes }} min read
-                    {% endif %}
+                    &mdash; <abbr title="{{ article.date.isoformat() }}">{{ article.locale_date }}</abbr>
                 </div>
             </div>
             {% endfor %}

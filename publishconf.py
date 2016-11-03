@@ -27,21 +27,7 @@ DELETE_OUTPUT_DIRECTORY = True
 
 STATIC_PATHS = ['images']
 
-# Blogroll
-LINKS = (('duniter.org', 'https://duniter.org/'),
-         ('creationmonetaire.info', 'http://creationmonetaire.info/'),)
-
-# Social widget
-SOCIAL = (('Twitter', 'https://twitter.com/twicedd'),
-          ('Diaspora*', 'https://diaspora-fr.org/people/f9d13420f9ff013197aa01beea1f31e2'),)
-
-MEDIUS_CATEGORIES = {
-
-}
-
-PLUGINS = [
-  'pelican_youtube',
-]
+MEDIUS_WIDGETS = ['categories','tags']
 
 MEDIUS_AUTHORS = {
   'cgeek': {
@@ -56,7 +42,27 @@ MEDIUS_AUTHORS = {
   }
 }
 
+MEDIUS_CATEGORIES = {
+  'Evénements': {
+    'description': 'Passés, présents et à venir !',
+    'thumbnail': '/images/event.png'
+  }
+}
+
+PLUGINS = [
+  'pelican_youtube',
+]
+
+# Blogroll
+LINKS = (('duniter.org', 'https://duniter.org/'),
+         ('creationmonetaire.info', 'http://creationmonetaire.info/'),)
+
+# Social widget
+SOCIAL = (('Twitter', 'https://twitter.com/twicedd'),
+          ('Diaspora*', 'https://diaspora-fr.org/people/f9d13420f9ff013197aa01beea1f31e2'),)
+
 DEFAULT_PAGINATION = 10
+
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
