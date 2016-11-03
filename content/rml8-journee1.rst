@@ -1,5 +1,5 @@
-Programme des RML8
-##################
+RML8 : Journée 1
+################
 
 :date: 2016-11-02 14h50
 :tags: RML, RML8, monnaie libre, duniter
