@@ -26,7 +26,7 @@ Cette spécialisation est intéressante à double titre pour ces rencontres :
 * Car les prochains grands développements de Duniter graviteront à coup sûr sur ce principe, le cœur arrivant à maturité.
 * Spécialiser un nœud est une excellente façon d'approcher le cœur, car on le manipule directement.
 
-Spécialiser un nœud sera donc, pour les participants, l'occasion *pour la toute première fois aux RML* de manipuler le code interne de Duniter et d'en comprendre avec aisance le fonctionnement. Car si réalité *le cœur est relativement simple*, il est important de donner explicitement les clés de lecture pour une appropriation rapide.
+Spécialiser un nœud sera donc, pour les participants, l'occasion *pour la toute première fois aux RML* de manipuler le code interne de Duniter et d'en comprendre avec aisance le fonctionnement. Car si en réalité *le cœur est relativement simple*, il est important de donner explicitement les clés de lecture pour une appropriation rapide.
 
 Vers l'ouverture du code de Duniter
 -----------------------------------
