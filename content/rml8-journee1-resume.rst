@@ -6,7 +6,6 @@ RML8 : Résumé de la journée 1
 :slug: rml8-journee1-resume
 :authors: cgeek
 :category: Evénements
-:status: Draft
 
 .. youtube:: cEuZrwjqDmk
 
