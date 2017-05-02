@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'cgeek'
 SITENAME = u'cblog'
-SITEURL = u'http://localhost:8056'
+SITEURL = u'http://localhost:8556'
 
 PATH = 'content'
 THEME = "medius"
