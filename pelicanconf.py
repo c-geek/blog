@@ -41,6 +41,10 @@ MEDIUS_CATEGORIES = {
   'Evénements': {
     'description': 'Passés, présents et à venir !',
     'thumbnail': '/images/event.png'
+  },
+  'Développement': {
+    'description': 'Bouts de code à tester',
+    'thumbnail': '/images/coding.png'
   }
 }
 
