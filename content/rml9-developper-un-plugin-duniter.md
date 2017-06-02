@@ -57,29 +57,23 @@ Pour exécuter le code qui suit, vous aurez besoin des programmes suivants :
 * [Git](https://git-scm.com/)
 
         sudo apt install git
-        git --version
-        git version 2.7.4
 
 * [Node.js v6 ou supérieur](https://nodejs.org/en/)
 
         curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
         nvm install 6
-        node --version
-        v6.10.2
 
 * [Yarn](https://yarnpkg.com/lang/en/docs/install/)
 
-        yarn --version
-        0.24.5
+        curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+        echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+        sudo apt-get update && sudo apt-get install yarn
 
 * [Python 2](https://www.python.org/downloads/)
-
-        python --version
-        Python 2.7.12
     
 **Pour Windows** : une fois Git, Node.js et Yarn installés, lancez la commande :
   
-  npm install --global --production windows-build-tools
+    npm install --global --production windows-build-tools
 
 ## 1. Développer un module : `rml9-hello-module`
 
@@ -140,7 +134,7 @@ Ceci est possible car le module `duniter-crawler` est présent dans les dépenda
 La synchronisation est terminée ? Bien, relançons la commande `nb-membres` :
 
     node run.js nb-membres
-    La monnaie Ğ1 contient 134 membres.
+    La monnaie Ğ1 contient 137 membres.
 
 Cette fois-ci, le compte est bon !
 
@@ -161,13 +155,13 @@ C'est en fait *au sein du nœud Duniter* que nous installons le module. Nous y b
 
 Le plus simple pour notre exemple est de récupérer les sources : 
 
+    cd ..
     git clone -b dev https://github.com/duniter/duniter.git
     cd duniter
     yarn
     bin/duniter --version
-    1.3.2
-
-Si vous avez bien la version 1.3.2, nous pouvons continuer.
+    
+La dernière commande doit afficher `1.3.2`. Si vous avez bien cette version, nous pouvons continuer.
  
 ### Installer notre module `rml9-hello-duniter`
 
@@ -183,9 +177,19 @@ La commande est inconnue. C'est normal, puisque le module RML9 n'est pas install
 Puis relançons la commande `hello` :
 
     bin/duniter hello
-    Hello depuis le module RML9 !
+    Hello depuis le module RML9, version modifiée !
+
+Puis la commande `nb-membres` :
+
+    bin/duniter nb-membres
+    La monnaie Ğ1 contient 137 membres.
     
-Si vous avez ce message, c'est que le module `rml9-hello-module` a bien été *branché* en tant que module à votre nœud Duniter !
+Puis la commande `nb-membres --sentries` :
+
+    bin/duniter nb-membres --sentries
+    La monnaie Ğ1 contient 81 membres référents.
+    
+Si vous avez ces messages, c'est que le module `rml9-hello-module` a bien été *branché* en tant que module à votre nœud Duniter !
 
 **Vous avez donc réussi à produire votre 1er module Duniter et à l'ajouter à votre nœud local !**
 
@@ -264,4 +268,21 @@ Ajouter le module `git+https://dev.cgeek.fr/cgeek/rml9-web-module.git`. Tester. 
 
 ## Extra : déboguer votre module
 
+Nécessite Chromium/Opera :
+
+    sudo apt install chromium-browser
+    
+Puis `node-inspector` :
+
+    npm install -g node-inspector
+    
+Retourner dans le module `rml9-hello-module` :
+
+    cd rml9-hello-module
+    node-debug run.js hello
+
 ## Conclusion
+
+Il est désormais possible de développer des modules pour la version 1.3.x de Duniter, à paraître dans les prochaines semaines. Les modules permettent l'ajout de nouvelles fonctionnalités, d'étendre le cœur et de partager ses développements à de nombreux nœuds Duniter, notamment pour augmenter son instance locale.
+
+Toutefois, il convient de s'assurer de leur provenance et de leur contenu.
