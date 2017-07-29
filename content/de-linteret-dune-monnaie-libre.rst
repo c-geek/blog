@@ -1,5 +1,5 @@
 De l'intérêt d'une monnaie libre
-#############################
+################################
 
 :date: 2017-07-29 16h35
 :tags: monnaie libre, économie
