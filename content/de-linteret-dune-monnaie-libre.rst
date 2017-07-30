@@ -29,7 +29,7 @@ Maintenant, imaginez qu'il n'existe qu'un seul et unique producteur de cet avoin
 
 Que se passerait-il si soudainement, ce producteur décidait ne plus fournir de sa production aux restaurants ? Le secteur de la restauration, désormais totalement acquis à ce nouvel avoine et le mettant comme élément de base de tous ses menus (car plus personne ne concevrait de repas sans cet élément central), ne se trouverait-il pas sérieusement amoché par cette décision ? Ne serait-on pas en présence d'une quasi mise à mort d'un secteur entier de l'économie ?
 
-Qu'en serait-il si une telle décision soit plutôt prise envers une entreprise particulière par exemple, composée de 200 personnes, parce que son dirigeant se serait mis à dos le producteur d'avoine lors d'une soirée mondaine ? Ou encore si cette décision portait sur plusieurs entreprises dont le producteur d'avoine jugerait « inutile » leur activité, porteuse des productions qui pourraient lui faire du tort ? Par exemple des entreprises produisant du blé dans l'espoir de concurrencer cet avoine.
+Qu'en serait-il si une telle décision était par exemple prise envers une entreprise particulière, composée de 200 personnes, parce que son dirigeant se serait mis à dos le producteur d'avoine lors d'une soirée mondaine ? Ou encore si cette décision portait sur plusieurs entreprises dont le producteur d'avoine jugerait « inutile » leur activité, porteuse de productions qui pourraient lui faire du tort ? Par exemple des entreprises produisant du blé dans l'espoir de concurrencer cet avoine.
 
 Détenir le pouvoir de décider qui bénéficie ou non de cette valeur désormais incontournable, n'est-ce pas là précisément un pouvoir de vie ou de mort sur une entité ou un pan tout entier de l'économie ?
 
