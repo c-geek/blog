@@ -1,3 +1,11 @@
 srv.pid
 pelican.pid
 *.pyc
+.idea/
+bin/
+include/
+lib/
+local/
+output/
+share/
+pip-selfcheck.json
