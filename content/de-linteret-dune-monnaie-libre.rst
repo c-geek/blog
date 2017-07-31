@@ -73,4 +73,4 @@ Vous pourrez en apprendre davantage sur sa forme concrète à travers cette pré
 
 -------
 
-¹ : Il ne s'agit pas là de blâmer les banques. Nous avons tout à fait le droit et la possibilité de ne pas contracter de crédits auprès d'une banque. Bien sûr, le fait que la quasi-totalité des agents économiques utilisent l'Euro, et notamment l'État qui en plus nous *force* à payer dans cette monnaie nos impôts, incite très fortement à obtenir des euros et notamment par le crédit. Mais nous avons toujours eu la possibilité d'utiliser une autre monnaie pour nos échanges.
+¹ : Il ne s'agit pas là de blâmer les banques. Nous avons tout à fait le droit et la possibilité de ne pas contracter de crédits auprès d'une banque. Bien sûr, le fait que la quasi-totalité des agents économiques utilisent l'Euro, et notamment l'État qui en plus nous *demande* de régler nos impôts dans cette monnaie, incite très fortement à obtenir des euros et notamment par le crédit. Mais nous avons toujours eu la possibilité d'utiliser une autre monnaie pour nos échanges.
