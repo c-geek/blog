@@ -21,6 +21,8 @@ Est-ce plus clair ?
 
 *Question subsidiaire* : est-il intéressant de développer une monnaie libre ?
 
+<center>![](./images/g1.png)</center>
+
 ----
 
 ¹ Source : http://www.creationmonetaire.info/2017/07/masse-monetaire-e-juillet-2017-le-rsa-descendra-t-il-sous-les-9.html
