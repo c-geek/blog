@@ -22,7 +22,7 @@ AUTHOR_FEED_RSS = None
 
 STATIC_PATHS = ['images']
 
-MEDIUS_WIDGETS = ['categories','tags']
+MEDIUS_WIDGETS = ['categories','tags','soutien']
 
 MEDIUS_AUTHORS = {
   'cgeek': {

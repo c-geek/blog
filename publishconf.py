@@ -27,7 +27,7 @@ DELETE_OUTPUT_DIRECTORY = True
 
 STATIC_PATHS = ['images']
 
-MEDIUS_WIDGETS = ['categories','tags']
+MEDIUS_WIDGETS = ['categories','tags','soutien']
 
 MEDIUS_AUTHORS = {
   'cgeek': {

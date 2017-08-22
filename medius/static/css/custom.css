@@ -1,0 +1,33 @@
+.soutien img {
+    width: 50px;
+    margin-left: 10px;
+    float: left;
+}
+
+.soutien a {
+    text-decoration: none;
+    color: black;
+}
+
+.soutien p {
+    /*display: block;*/
+    height: 50px;
+    /*width: 250px;*/
+    padding: 5px;
+    background-color: #fbc14c;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.soutien span {
+    position: relative;
+    top: 13px;
+}
+
+.soutien p.gchange {
+    background-color: #33cd5f;
+}
+
+.gchange img {
+}
