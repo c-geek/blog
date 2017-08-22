@@ -12,7 +12,7 @@ from pelicanconf import *
 
 AUTHOR = u'cgeek'
 SITENAME = u'cblog'
-SITEURL = 'http://blog.cgeek.fr'
+SITEURL = 'https://blog.cgeek.fr'
 RELATIVE_URLS = False
 TIMEZONE = 'Europe/Paris'
 
